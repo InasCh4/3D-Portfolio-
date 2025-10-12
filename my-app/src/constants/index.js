@@ -142,17 +142,17 @@ const experiences = [
     ],
   },
   {
-    title: "Bachelor’s Degree in Automation Engineering",
+    title: "Automation Engineering",
     company_name: "Mouloud Mammeri University of Tizi Ouzou (UMMTO), Algeria",
     icon: UMMTO,
     iconBg: "#383E56",
-    date: "2022 – 2025",
+    date: "2022 – Present",
     points: [
       "Gained solid foundations in automation systems, control theory, and industrial electronics.",
       "Worked with Programmable Logic Controllers (PLCs) using Ladder Logic programming.",
-      "Designed and simulated control systems with MATLAB/Simulink.",
-      "Programmed and configured automation projects using Siemens Step7",
-      "Designed, simulated, and implemented automation projects.",
+      "Designed and simulated control systems with MATLAB/Simulink, and implemented automation projects, and some arduino projects.",
+      "Programmed and configured automation projects using Siemens Step7 and TIA Portal.",
+      "Becoming a Masters Student in Automation and Industrial Computing (on process).",
     ],
   },
   {
