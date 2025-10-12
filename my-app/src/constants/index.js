@@ -211,7 +211,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/InasCh4",
   },
   {
     name: "Trip Guide",
@@ -232,6 +232,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_code_link: "https://github.com/InasCh4",
   },
 ];
 
