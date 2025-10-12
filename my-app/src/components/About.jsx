@@ -78,4 +78,5 @@ const About = () => {
     </>
   );
 };
-export default SectionWrapper(About, "about");
+const WrappedWorks = SectionWrapper(About, "about");
+export default WrappedWorks;

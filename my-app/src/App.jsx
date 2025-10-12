@@ -3,12 +3,12 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Navbar,
   Hero,
   Tech,
   Works,
   StarsCanvas,
+  Footer,
 } from "./components";
 
 const App = () => {
@@ -23,10 +23,10 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
+          <Footer />
         </div>
       </div>
     </BrowserRouter>
