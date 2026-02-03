@@ -7,7 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { inasPixels } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt className="xs:w-[230px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -49,15 +49,14 @@ const About = () => {
         {/* Text */}
         <p className="text-secondary text-[17px] max-w-3xl leading-[30px] flex-1">
           I'm a skilled full-stack JavaScript developer and automation engineer
-          with expertise in TypeScript, JavaScript, React, Node.js, and
-          Three.js, complemented by strong experience in IoT and industrial
-          automation. A quick learner and effective collaborator, I deliver
-          efficient, scalable, and user-friendly solutions that address
-          real-world challenges. Currently, I’m developing an innovative project
-          that integrates my web development expertise with my engineering
-          background — a concept that remains under wraps but is set to push the
-          boundaries of both fields. Let's work together to bring your ideas to
-          life!
+          with expertise in JavaScript, React, Node.js, and Three.js,
+          complemented by strong experience in IoT and industrial automation. A
+          quick learner and effective collaborator, I deliver efficient,
+          scalable, and user-friendly solutions that address real-world
+          challenges. Currently, I’m developing an innovative project that
+          integrates my web development expertise with my engineering background
+          — a concept that remains under wraps but is set to push the boundaries
+          of both fields. Let's work together to bring your ideas to life!
         </p>
 
         {/* Image */}

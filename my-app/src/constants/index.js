@@ -15,14 +15,14 @@ import {
   git,
   figma,
   PLC,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   code213,
   sonelgazLogo,
   UMMTO,
   training,
+  foodrecipe,
+  dashboard,
+  appel,
 } from "../assets";
 
 export const navLinks = [
@@ -152,7 +152,7 @@ const experiences = [
       "Worked with Programmable Logic Controllers (PLCs) using Ladder Logic programming.",
       "Designed and simulated control systems with MATLAB/Simulink, and implemented automation projects, and some arduino projects.",
       "Programmed and configured automation projects using Siemens Step7 and TIA Portal.",
-      "Becoming a Masters Student in Automation and Industrial Computing (on process).",
+      "A Masters Student in Automation & Industrial Informatics",
     ],
   },
   {
@@ -172,9 +172,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Food Recipe App ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Find ideas, cook smarter: a recipe app that helps you search meals, organize favorites, and keep your best recipes in one place.",
     tags: [
       {
         name: "react",
@@ -189,50 +189,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/InasCh4",
+    image: foodrecipe,
+    source_code_link: "https://github.com/InasCh4/Food_Recipe_App",
   },
   {
-    name: "Job IT",
+    name: "Real Time dashboard ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Monitor industrial electrical data live: a MERN dashboard streaming telemetry via MQTT/WebSocket, with KPIs, charts, alerts, and history in one place.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Socket.IO",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MQTT",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/InasCh4",
+    image: dashboard,
+    source_code_link: "https://github.com/InasCh4/ESP-Realtime-Dashboard",
   },
   {
-    name: "Trip Guide",
+    name: "Apple iPhone clone ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A 3D Apple iPhone landing page clone built with Three.js and GSAP, featuring smooth animations, interactive product views, and a modern UI.",
     tags: [
       {
-        name: "nextjs",
+        name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "gsap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/InasCh4",
+    image: appel,
+    source_code_link: "https://github.com/InasCh4/Apple_iPhone_web_site",
   },
 ];
 

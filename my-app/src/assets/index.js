@@ -28,9 +28,9 @@ import sonelgazLogo from "./company/sonelgazLogo.png";
 import UMMTO from "./company/UMMTO.jpg";
 import training from "./company/webprogramming.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dashboard from "./dashboard.png";
+import appel from "./appel.png";
+import foodrecipe from "./foodrecipe.png";
 
 export {
   logo,
@@ -48,9 +48,6 @@ export {
   redux,
   tailwind,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   frontend,
   roboticarm,
   back,
@@ -62,4 +59,7 @@ export {
   training,
   Arduino,
   PLC,
+  foodrecipe,
+  appel,
+  dashboard,
 };
